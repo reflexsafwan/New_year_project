@@ -9,16 +9,15 @@ body{
 .container{
   padding:0 10%
 }
+
 .header-area{
     background-image: url(../images/banner/banner3.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     width: 100%;
-    height: 90vh;
- 
-
+    height: 700px;
 }
 
 .header-area h2{
@@ -26,9 +25,6 @@ body{
     font-size: 65px;
     font-weight: bold;
     margin-left:60%;
- 
-
-
 }
 
 .header-area p{
@@ -39,9 +35,125 @@ body{
 
 }
 .header-area button{
-    color:blue;
-    padding: 10px 20px;
+    color:#005FAC;
+    padding: 15px 22px;
     margin-left: 75%;
     margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
 
+}
+
+/* hero area css start */
+
+.hero-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:  100px 0px;
+    background-color: #e8e8e8;
+    padding: 30px;
+}
+.hero-area-text{
+    margin-left: 100px;
+}
+.hero-area h2{
+font-size: 40px;
+font-weight: bold;
+
+}
+.hero-items{
+    margin-top: 10px;
+}
+.hero-items .fa-check{
+    color:#16D887;
+}
+.hero-area p{
+    color: #9a9595;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+/* plan area css start */
+.plan-area{
+    margin-bottom: 100px;;
+}
+.plan-area-heading h2{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+}
+.plan-area-items{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+.single-items img{
+    margin-bottom: 20px;
+}
+/* contact-ara css start */
+
+.contact-area{
+    width:90%;
+    height: 200px;
+    padding-left: 70px;
+    padding-top: 50px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+
+}
+.contact-area h2{
+    font-size: 40px;
+    font-weight: bold;
+    color:#fff;
+}
+.contact-area button{
+    padding: 20px 30px;
+    margin-top: 20px;
+    color:#005FAC;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* footer area css */
+
+.footer-area{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    margin-top: 100px;
+    padding: 200px 120px
+}
+.footer-leftside h2{
+    font-size: 45px;
+    font-weight: bold;
+   margin-bottom: 15px;
+}
+.footer-leftside p{
+    color:#d1d1d1;
+    margin-bottom: 20px;
+}
+.footer-icon img{
+    margin-right: 15px;
+}
+.footer-rightside h2{
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+.footer-rightside input{
+padding: 15px 20px;
+border-radius: 10px;
+border: none;
+}
+.footer-rightside button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #005FAC;
+    color:#fff;
 }
