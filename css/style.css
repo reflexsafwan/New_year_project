@@ -25,26 +25,30 @@ h2{
     /* background-attachment: fixed; */
     width: 100%;
     height: 700px;
+ 
 }
 
-.header-area h2{
+.header-area-text h2{
     color:white;
     font-size: 65px;
     font-weight: bold;
     margin-left:60%;
+    text-align: justify;
+padding-top: 185px;;
 }
 
-.header-area p{
+.header-area-text p{
     color: white;
  margin-left: 60%;
  margin-top: 10px;
+ text-align: justify;
 
 
 }
 .header-area button{
     color:#005FAC;
     padding: 15px 22px;
-    margin-left: 75%;
+    margin-left: 60%;
     margin-top: 30px;
     font-size: 18px;
     border-radius: 10px;
@@ -132,7 +136,7 @@ font-weight: bold;
     margin-bottom: 50px;
 }
 .reveiw_text_area h1{
-    color:#f23a16;
+    color:#005FAC;
     margin-top: 80px;
     font-weight: bold;
     font-size: 50px;
